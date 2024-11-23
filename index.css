@@ -1,0 +1,45 @@
+body::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-image: url('https://www.blogvertex.com/wp-content/uploads/2020/03/ways-to-Improve-fitness.jpg');
+    background-size: cover;
+    opacity:0.9;
+    z-index: -1;
+}
+
+h1{
+    margin-left: 20px;
+
+}
+h2{
+    margin-top: 150px;
+    margin-left: 690px;
+
+}
+p{
+    margin-left: 690px;
+}
+.btn-primary{
+    margin-left: 690px;
+}
+/* Base styles for mobile devices */
+body {
+    font-size: 16px;
+}
+
+/* Larger devices */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+}
